@@ -1,0 +1,85 @@
+html {
+    background-image: url("../lb-bg.png");
+    background-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: Tahoma;
+
+}
+
+body {
+    overflow: auto;
+    text-align: center;
+    margin: 60px 460px 100px 500px; /* trên - phải - dưới - trái */
+    height: 450px;
+    border: 4px solid black;
+    border-radius: 20px;
+    background: white;
+
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 60px;
+    color: lightskyblue;
+}
+
+input {
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 90px 10px 5px;
+    border: none;
+
+}
+
+.btn_dn {
+    margin-top: 20px;
+
+}
+
+.username, .password {
+    margin-top: 25px;
+    border: 2px solid black;
+    padding: 10px 90px 10px 5px;
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+
+.btn_dn a {
+    text-decoration: none; /*bỏ gạch chân*/
+    border: 3px solid black;
+    border-radius: 60px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn_dn a:hover {
+    background: black;
+    color: white;
+}
+
+.f_pass p, .f_pass a{
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: -3px;
+}
+
+.questionDk p, .questionDk a {
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+    margin-top: 18px;
+
+}
+
